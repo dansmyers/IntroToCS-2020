@@ -10,6 +10,8 @@ Write a program that performs the following calculation and prints the result
   2          3
 ```
 
+Tip: puta space between all of your operators and operands to make things easy to read.
+
 ## McChocolate Potatoes
 
 The Japanese yen currently trades for about $.0094.
@@ -31,5 +33,22 @@ The world's largest swimming pool is at the San Alfonso del Mar resort in Chile.
 
 A **firkin** is an old unit sometimes used to measure beer and ale in Britain. The British Imperial beer firkin is defined to be equal to 10.8 US gallons.
 
-Suppose we wanted to fill the San Alfonso del Mar pool with beer, because **reasons**. How many firkins of beer would be required to accomplish this feat?
+Suppose we wanted to fill the San Alfonso del Mar pool with beer, because **reasons**. How many firkins of beer would be required to accomplish this feat? Write a program to calculate and print the answer.
 
+Tip: to enter 66 million into a program, use `66000000`. Python doesn't want commas in large numbers.
+
+## Smoots
+
+Use all of your powers to answer the following question.
+
+Oliver R. Smoot is an MIT graduate and former head of the American National Standards Institute (ANSI) and the International Organization for Standards (ISO).
+
+In 1958, as part of his initiation into ΛXA, Smoot and his brothers measured the entire length of Harvard Bridge over the Charles River in Cambridge, MA, using Smoot’s body as the ruler. He was at the time 170 cm tall (5 feet, 7 inches), and the bridge was declared to be 364.4 Smoots, "plus or minus one ear" (about 2035 feet or 650.7 meters). Since that time, the measurement of Harvard Bridge has always been denominated in Smoots, with the markings repainted each year by the incoming ΛXA pledge class at MIT. The Cambridge police use the Smoot markings to identify the location of accidents on the bridge.
+
+![](https://alum.mit.edu/sites/default/files/styles/article_desktop/public/images/SMOOT.jpg?itok=jMC7rC_T)
+
+The Lake Pontchartrain Causeway, which connects Metairie, a suburb of New Orleans, to Mandeville, LA, is 23.83 miles long. It holds the record for being the longest continuous bridge over water (there are longer bridges, but they are not built in one continuous span).
+
+What is the length of the Lake Pontchartrain Causeway in Smoots?
+
+Tip: one Smoot is about 5.5833 feet and theree are 5280 feet in a mile.
