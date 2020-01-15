@@ -63,8 +63,8 @@ We will also use Mimir as an online development and automatic grading platform. 
 
 ### Approximate Weekly Schedule of Topics
 
-| Week                      | Topics  |  Assignment |
-|-----------------------------------------------------|------------------------------------------|
+| Week | Topics  |  Assignment |
+|------|---------|-------------|
 | 1  | Intro to Python, printing, arithmetic  | 1 |
 | 2  | Variables and assignments | 2 |
 | 3  | Conditional execution and boolean logic | 3|
