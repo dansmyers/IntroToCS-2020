@@ -72,7 +72,7 @@ We will also use Mimir as an online development and automatic grading platform. 
 | 5  | More functions | Problem set 4 |
 | 6  | The `for` loop  | Problem set 5 and major project 1 |
 | 7  | The `while` loop | Problem set 6 |
-| 8  | Strings | Problem set 7 |
+| 8  | Strings and file I/O | Problem set 7 |
 | 9  | Lists | Problem set 8 and challenge project 1 |
 | 10  | Dictionaries | Major project 2 |
 | 11  | Intro to objects and classes |
