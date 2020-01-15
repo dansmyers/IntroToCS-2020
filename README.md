@@ -61,9 +61,26 @@ We will also use Mimir as an online development and automatic grading platform. 
 
 ## Schedule
 
-### Approximate Calendar
+### Approximate Weekly Schedule of Topics
 
-
+| Week                      | Topics  |  Assignment |
+|-----------------------------------------------------|------------------------------------------|
+| 1  | Intro to Python, printing, arithmetic  | 1 |
+| 2  | Variables and assignments | 2 |
+| 3  | Conditional execution and boolean logic | 3|
+| 4  | Intro to functions | 
+| 5  | More functions | 4 |
+| 6  | The `while` loop |
+| 7  | The `for` loop  | 5 and major project #1 |
+| 8  | Lists | 6 | Challenge project #1 |
+| 9  | Strings | 7 |
+| 10  | Dictionaries | 8 | Major project #2 |
+| 11  | Intro to objects and classes |
+| 12  | More objects and classes | Challenge project #2 |
+| 13  | Graphics programming |
+| 14  | Programming for the web |
+| 15  | More web programming | Final project |
+| 16  | Dr. Myers' choice |
 
 
 ### Other Important Dates
