@@ -10,7 +10,7 @@ Write a program that performs the following calculation and prints the result
   2          3
 ```
 
-Tip: puta space between all of your operators and operands to make things easy to read.
+Tip: put a space between all of your operators and operands to make things easy to read.
 
 ## McChocolate Potatoes
 
