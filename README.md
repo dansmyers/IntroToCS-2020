@@ -80,7 +80,7 @@ We will also use Mimir as an online development and automatic grading platform. 
 | 13  | Graphics programming |
 | 14  | Programming for the web |
 | 15  | More web programming | Final project |
-| 16  | Dr. Myers' choice |
+| 16  | Even more web programming |
 
 
 ### Other Important Dates
