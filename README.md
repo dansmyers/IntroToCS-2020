@@ -87,8 +87,7 @@ Rather than calculating your score as number of points on a 0-100 scale, your gr
 If you achieve satisfactory performance on enough assigments, described in more detail below, you'll receive a baseline grade of **B** for the course. This demonstrates that you have engaged with the material and met the basic learning outcomes for the class. To get a higher grade, you can do more work that shows greater mastery of the course learning outcomes.
 
 ### Labs
-
-You must be registered for a section of CMS 167L. **Lab attendance** will count as part of your grade and you'll receive the same grade for both CMS 167 and CMS 167L. Most of our lab periods will be used for practice programming sections.
+You must be registered for a section of CMS 167L. You'll receive the **same grade** for both CMS 167 and CMS 167L.
 
 ### Assignments and Scoring
 Your core grade will be based on five things:
