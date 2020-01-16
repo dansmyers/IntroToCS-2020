@@ -87,7 +87,7 @@ Pipes are a common tool in the Unix world: they allow you to chain small, simple
 
 ## Let's Make a Web Server
 
-### Write a Serve a Basic Web Page
+### Write and Serve a Basic Web Page
 
 **Creating the Page**  Let's make a basic web page. 
 
