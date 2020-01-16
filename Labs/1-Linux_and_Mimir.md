@@ -161,7 +161,7 @@ https://silly-baldr_80.ide.mimir.io/
 
 where `silly-baldr` will be replaced with a different name matching your current Mimir workspace.
 
-**Stopping the Server** Press CTRL + c in the terminal window to stop the server program.
+**Press CTRL + c in the terminal window to stop the server program**.
 
 
 ### Page Contents
@@ -186,6 +186,8 @@ Your example page uses two other tags
 ### Jam
 
 Before going further, experiment with making some changes to your page and visualizing the results.
+
+Run the server using `srv`, reload the page, then stop the server using CTRL + c (or COMMAND + c on Mac) when you need to make changes.
 
 ### Interior Decoration
 
