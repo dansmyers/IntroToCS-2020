@@ -1,5 +1,17 @@
 # Linux and Mimir
 
+## Overview
+
+This lab will let you practice using the Mimir environment.
+
+Use the basic Linux features we worked through in class to complete the assignments below.
+
+The lab has two parts:
+
+- Installing and running some new programs on Linux
+
+- Creating and serving a basic web page using HTML and CSS
+
 ## Fun with Programs
 
 ### Cowsay?
@@ -77,7 +89,17 @@ Pipes are a common tool in the Unix world: they allow you to chain small, simple
 
 ### Write a Serve a Basic Web Page
 
-**Creating the Page**  Let's make a basic web page. It needs to be named `index.html`.
+**Creating the Page**  Let's make a basic web page. 
+
+First, `cd` to your `CMS_167` directory and make a new directory to hold the new files you're going to write:
+
+```
+cd CMS_167
+mkdir Lab_1_Web_Page
+cd Lab_1_Web_Page
+```
+
+It needs to be named `index.html`.
 
 ```
 touch index.html
@@ -173,7 +195,7 @@ cURL is a useful tool that let's you interact with a remote server from the comm
 curl -O https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Great_Wave_off_Kanagawa.jpg
 ```
 
-The `-O` flag saves the file locally.
+The `-O` (that's "dash capital letter Oh") flag saves the file locally.
 
 Open your `index.html` file and add an `<img>` tag in the body section to display the image.
 
@@ -199,6 +221,12 @@ You can also set an absolute size in pixels, e.g. `"width:200px"`.
 
 Styling elements using individual tags was common in the old-school web, but modern practice favors separating page content from styling. Let's add a `<style>` section to the `<head>` block that will hold rules for styling page elements.
 
+This way of styling the page is called **CSS**, which is short for *Cascading Style Sheets*.
+
+- HTML controls the page's content and structure
+
+- CSS controls its style and formatting
+
 ```
 <head>
     <title>This appears at the top of the browser.</title>
@@ -212,8 +240,6 @@ Styling elements using individual tags was common in the old-school web, but mod
 ```
 
 The style rule specifies that the contents of all `<img>` tags should have their width set to 50% of the page size.
-
-This way of styling the page is called **CSS**, which is short for *Cascading Style Sheets*, though that name doesn't really have any meaning and survives only for historical regions. Basically, when you read about CSS, think of styling and page layout.
 
 You can add elements to the style block to control the presentation of other parts of the page. For example, to style the contents of  the entire body:
 
@@ -237,12 +263,12 @@ You can add elements to the style block to control the presentation of other par
 
 **Fonts** The `font-family` parameter takes a list of fonts (a "font stack") and uses the first one that's available on the system. Here, the first choice font is Helvetica and the last choice is the default system sans-serif font, which is guaranteed to exist.`font-size` controls the size.
 
-**Colors** Colors are specified as three values, denoting the red, green, and blue components of the color. Each value is represented using the **hexadecimal** number system, which encodes a byte of data as a number from `00` to `FF`.
+**Colors** Colors are specified as three values, denoting the red, green, and blue components of the color. Each value is represented using the **hexadecimal** number system, which encodes a byte of data as a number from `00` to `FF`. We'll talk more about number formats in a later lecture.
 
 The string `#FAFAFA` sets R, G, and B to a nice equal gray color. For something more vibrant try
 
 - `#0071BA` (the official brand-approved Rollins blue color). This color has no red (`00`), some green (`71`) and a good amount of blue (`BA`).
-- `#FACF00` (the official brand-approved Rollins gold color). This color has a lot of red (`FF`), some green (`CF`) and no blue (`00`).
+- `#FACF00` (the official brand-approved Rollins gold color). This color has a lot of red (`FA`), a good amount of green (`CF`), and no blue (`00`).
 
 Play around with a color picker and experiment with different color strings:
 
@@ -274,3 +300,13 @@ You can also set the `color` property to control the color of the text.
 `margin` sets a padding of 40px around all sides of the page content; `auto` centers the display region inside the browser frame, pulling everything to the middle. Note that this is centering the display region, not the content itself.
 
 The background and text are softened a little away from strict white and black.
+
+## One More Thing...
+Telnet is a program for establishing a remote connection to another server.
+
+```
+sudo apt-get install telnet
+telnet towel.blinkenlights.nl
+```
+
+Close the terminal window to quit.
