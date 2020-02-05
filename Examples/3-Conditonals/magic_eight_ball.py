@@ -15,11 +15,13 @@ question = input('Tell me your question: ')
 r = random()
 
 # Use the value of r to select an output message
+#
+# Note: Python allows chained conditionals of the form a < b < c, but many other languages don't
 if r <= .25:
     print('My sources say no.')
-elif r > .25 and r <= .50:
+elif .25 < r <= .50
     print('It is decidedly so.')
-elif r > .50 and r <= .75:
+elif .50 < r <= .75
     print('Concentrate and ask again.')
 else:
     print('Signs point to yes.')
