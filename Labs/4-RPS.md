@@ -22,10 +22,10 @@ Welcome to Rock, Paper, Scissors.
 3. Scissors
 Select your move:
 1
-You've chosen Rock.
-I choose Scissors.
-Rock crushes Scissors!
-My failure...does not compute...
+Rock. A strong choice.
+BEEP BOOP I CHOOSE SCISSORS
+ROCK CRUSHES SCISSORS!
+MY FAILURE...DOES NOT COMPUTE...
 ```
 
 ## Skeleton
@@ -136,7 +136,7 @@ Add an `if-elif-else` block that tests the player's input and prints the associa
 
 ```
 if player_move == ROCK:
-    print('You have chosen Rock. A strong choice.')
+    print('Rock. A strong choice.')
 ```
 
 Add two more cases for PAPER and SCISSORS.
