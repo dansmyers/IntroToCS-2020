@@ -23,7 +23,7 @@ Welcome to Rock, Paper, Scissors.
 Select your move:
 1
 Rock. A strong choice.
-BEEP BOOP I CHOOSE SCISSORS
+BEEP BOOP I CHOOSE SCISSORS.
 ROCK CRUSHES SCISSORS!
 MY FAILURE...DOES NOT COMPUTE...
 ```
