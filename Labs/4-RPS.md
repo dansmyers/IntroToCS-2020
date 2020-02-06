@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors
+# Rock-Paper-Scissors
 
 ## Overview
 This document will lead you guide you through the implementation of an RPS game. This program will tie together pretty much everything that we've done so far in the class:
