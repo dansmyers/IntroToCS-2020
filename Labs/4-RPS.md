@@ -167,7 +167,7 @@ if player_move == cpu_move:
 Add more statements to test for the other possible combinations. For example,
 
 ```
-if player_move == ROCK and cpu_move == PAPER
+if player_move == ROCK and cpu_move == PAPER:
   print('PAPER COVERS ROCK.')
   print('HUMANS...SO SOFT...SO WEAK.')
 ```
