@@ -3,18 +3,19 @@
 ## Overview
 This document will lead you guide you through the implementation of an RPS game. This program will tie together pretty much everything that we've done so far in the class:
 
-Printing
-Variables
-Constants
-User input
-Relational operators
-Conditional execution
-Randomness
-Logical operations
+- Printing
+- Variables
+- User input
+- Relational operators
+- Conditional execution
+- Randomness
+- Logical operations
+
 This version of the game will play one round of human vs. computer. A little later, we can talk about how to modify the program to play something like best two-out-of-three.
 
 Here's an example play session.
 
+```
 Welcome to Rock, Paper, Scissors.
 1. Rock
 2. Paper
@@ -25,99 +26,148 @@ You've chosen Rock.
 I choose Scissors.
 Rock crushes Scissors!
 My failure...does not compute...
-Skeleton
+```
+
+## Skeleton
+
+### Setup
+
+`cd` into your `CMS_195/Conditionals` directory:
+
+```
+cd CMS_195/Conditionals
+```
+
+then make a new file:
+
+```
+touch rps.py
+```
+
+```
+open rps.py
+```
+
+### Starting Code
+
 Use the code below as a starting point. Each of the sections below will ask you to add a new part to the skeleton program.
 
-// Rock, paper, scissors
-// CMS 167
+```
+"""
+A Rock-Paper-Scissors game that plays one round of human vs. computer
 
-// Play a single round of human vs. computer
+CMS 195, Spring 2020
+"""
 
+# Import the randint method
+from random import randint
 
-public class RockPaperScissors {
+# Declare constant variables representing the three moves
 
-  public static void main(String[] args) {
+# Print the welcome message and list the three moves
 
-    // Declare final variables representing the three moves
-    
-    // Create a new Scanner
-    
-    // Print the welcome message and list the three moves
-    
-    // Read the user's move
-    
-    // If the move is not 1, 2, or 3, exit the program with return
-    
-    // Randomly generate the CPU's move
-    
-    // Print the CPU's move
-    
-    // Determine the outcome and print an appropriate message
+# Read the user's move
 
-  }
-  
-}
-Step 1: Declare Constants
-We have to decide how to represent the player and computer move. There are many different ways to do this. We could, for example, have the player type in a String for their chosen move, like "Rock". This approach could work, but we'd have to deal with the complexity of raw text input.
+# If the move is not 1, 2, or 3, exit the program
+
+# Randomly generate the CPU's move using randint
+
+# Print a string representing the CPU's move
+
+# Determine the outcome and print a message
+
+```
+
+## Step 1: Declare Constants
+We have to decide how to represent the player's and computer's moves. There are many different ways to do this. We could, for example, 
+have the player type in a string for the chosen move, like "Rock". This approach could work, but we'd have to deal with the complexity 
+of raw text input.
 
 A more structured approach is to assign each move a number. Now, we can read the user's move by prompting him or her to type 1, 2, or 3 and generate the computer's move by picking a random value 1, 2, or 3.
 
-Use final variables to declare constants for each move:
+Add three lines mapping the three moves to the numbers 1, 2, and 3:
 
-final int ROCK = 1;
-Add two more lines for PAPER and SCISSORS.
+```
+ROCK = 1
+PAPER = 2
+SCISSORS = 3
+```
 
 Now you can use the name ROCK in your program instead of always remembering "1 stands for rock."
 
-Step 2: Scanner
-Add the line import java.util.Scanner; to the top of your program, then add a line to declare a new Scanner that reads from System.in.
+### Aside: Constants
 
-Step 3: Print the Welcome Message and List the Three Moves
+Variables named with ALL CAPS are considered to be **constants**: the value of a constant variable **should not change** after its first assignment.
+
+The use of ALL CAPS names to indicate constants is a **convention** of Python programming, not a rule. Other languages, like Java, have ways to declare constants that literaaly cannot change: the Java compiler will generate an error if you attempt to modify a constant variable.
+
+
+## Step 2: Print the Welcome Message and List the Three Moves
 Add four print statements that print the opening text for the game.
 
-Step 4: Read the Player's Move
-Prompt the player to select one of the moves, then read the response using nextInt():
+```
+Welcome to Rock, Paper, Scissors.
+1. Rock
+2. Paper
+3. Scissors
+```
 
-int playerMove = input.nextInt();
-Step 5: Check for Valid Input
+
+## Step 3: Read the Player's Move
+Prompt the player to select one of the moves and read the response using `input`.
+
+```
+player_move = int(input('Select your move: '))
+```
+
+
+## Step 4: Check for Valid Input
 The only legal moves are 1, 2 or 3. Add some code to check if the user enters a value outside that range, and if so exit the program.
 
-if (playerMove strictly less than 1 OR playerMove strictly greater than 3) {
-    System.out.println("That's not a valid move, meatbag.");
-    return;
-}
-Remember that the return statement automatically ends the main method, which is the same as exiting the program.
+```
+if player_move < 1 or player_move > 3:
+    print('That is not a valid move.')
+    exit()
+```
 
-Step 6: Print the Player's Move
-Add if statements that test the player's input and print the associated move.
 
-if (playerMove == ROCK) {
-  System.out.println("You've chosen Rock.");
-}
+## Step 5: Print the Player's Move
+Add an `if-elif-else` block that tests the player's input and prints the associated move.
+
+```
+if player_move == ROCK:
+    print('You have chosen Rock. A strong choice.')
+```
+
 Add two more cases for PAPER and SCISSORS.
 
-Step 6: Randomly Generate the CPU's Move
-Use Math.random() to generate a 1, 2, or 3 and save it into a variable named cpuMove.
+## Step 6: Randomly Generate the CPU's Move
+Use `randint` to generate a 1, 2, or 3 and save it into a variable named `cpu_move`.
 
-Step 7: Print the CPU's Move
-Addif statements to print a message for each possible computer move.
+## Step 7: Print the CPU's Move
+Add another `if-elif-else` block to print a message for each possible computer move.
 
-if (cpuMove == ROCK) {
-  System.out.println("I choose Rock.");
-}
+```
+if cpu_move == ROCK:
+    print('BEEP BOOP I CHOOSE ROCK.')
+```
+
 Add two more cases for PAPER and SCISSORS.
 
-Step 8: Determine the Outcome
+## Step 8: Determine the Outcome
 This is the most complex part. You need to write a set of conditional statements that will compare the player and CPU moves and print the appropriate outcome message.
 
 One case is easy: if the moves are the same, it's a draw.
 
-if (playerMove == cpuMove) {
-  System.out.println("Draw! I'll get you next time, human.");
-}
-Add more statements to test for the other possible combinations.
+```
+if player_move == cpu_move:
+    print('DRAW. I WILL GET YOU NEXT TIME HUMAN.')
+```
 
-if (playerMove is ROCK AND cpuMove is PAPER) {
-  System.out.println("Paper covers Rock!");
-  System.out.println("Humans...so soft...so weak.");
-}
+Add more statements to test for the other possible combinations. For example,
+
+```
+if player_move == ROCK and cpu_move == PAPER
+  print('PAPER COVERS ROCK.')
+  print('HUMANS...SO SOFT...SO WEAK.')
+```
