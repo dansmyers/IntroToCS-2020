@@ -67,17 +67,11 @@ def read_leaflet():
     print()
     print('The leaflet turns out to be a coupon for a nearby all-you-can-eat Chinese buffet.')
     print('Your stomach rumbles...')
+    print('But you need to head back to your house before you do anything else.')
     print()
     
-    print('1. Drive to the buffet.')
-    print('2. Go to your house.')
-        
-    choice = int(input('Make a choice: '))
-    
-    if choice == 1:
-        drive_to_buffet()
-    else:
-        go_to_house()
+    # Go directly to the next page without offering a choice
+    go_to_house()
 
     
 def open_mailbox():
@@ -120,7 +114,7 @@ def print_instructions():
     print()
     
     print('Every page in this book is implemented as a function.')
-    print('After reading each page, you\'ll make a choice, which calls another function to take you to the next page.')
+    print('On each page, you\'ll make a choice, which calls the next function.')
     print('Let\'s begin!')
         
         
@@ -129,3 +123,18 @@ print_instructions()
 start()
 ```
 
+### Structure of the Program
+
+The `main` part calls two functions: `print_instructions`, which just prints an intro message and then returns, and `start`, which is
+the first page of the story.
+
+The `start` function prints a little description of the scene and then prompts the user to choose option 1 or 2, reading the choice
+with the `input` function.
+
+Each choice corresponds to another function: `go_to_house` or `open_mailbox`. If the user makes choice 2, for example, the program calls the `open_mailbox` function, which represents another page in the story with another set of choices.
+
+## Your Mission
+
+Once you're comfortable with the basic example story, take control and write your own. You can use the starter code as a model and either keep the same opening scenario and choices or write something completely different.
+
+We'll save some time at the end of the period to play each other's games.
