@@ -94,7 +94,8 @@ def open_mailbox():
 def start():
     
     print()
-    print('You are standing in an open field west of a white house with a boarded front door. There is a small mailbox here.')
+    print('You are standing in an open field west of a white house with a boarded front door.')
+    print('There is a small mailbox here.')
     print()
     
     print('1. Go to the house.')
@@ -133,8 +134,23 @@ with the `input` function.
 
 Each choice corresponds to another function: `go_to_house` or `open_mailbox`. If the user makes choice 2, for example, the program calls the `open_mailbox` function, which represents another page in the story with another set of choices.
 
+Here's a key idea: within `start`, we're using functions to **describe what should happen next**. Each function represents one self-contained page with calls to the functions representing other pages. Thus, the code is nicely compartmentalized. In particular, **we could change the code for one page without having to rewrite any other page**.
+
 ## Your Mission
 
 Once you're comfortable with the basic example story, take control and write your own. You can use the starter code as a model and either keep the same opening scenario and choices or write something completely different.
+
+Here's the basic plan:
+
+- Use the `start` function as a model for all of your functions.
+
+- Each function prints some text of the story, then prints some choices. You can do 1, 2, 3, or more choices, depending on how you want
+the story to develop.
+
+- Read the number for the user's choice with `input`, like in the `start` function. You can assume the user will always put in a valid number.
+
+- For each choice, call a method that decribes what you want to happen next.
+
+- Then go write those methods to create the next pages of the story.
 
 We'll save some time at the end of the period to play each other's games.
