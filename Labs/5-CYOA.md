@@ -42,7 +42,7 @@ open cyoa.py
 
 ### Some Starter Code
 
-Put the following code in your `cyoa.py` file, then run it a couple of times to see how it works.
+Put the following code in your `cyoa.py` file, then run it a couple of times to see how it works. Once you have played through a few paths, trace the execution of the source code and verify that you understand how it works.
 
 ```
 """
