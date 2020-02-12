@@ -6,7 +6,7 @@ If you had been a kid in the 80's, your elementary school library would have bee
 
 ![](https://upload.wikimedia.org/wikipedia/en/f/f0/Cave_of_time.jpg)
 
-Each book was the story of "you", the nameless protagonist, making your way through some type of fantastic adventure story. After reading for a few pages, you'd be offered a choice:
+Each book was the story of "you", the nameless protagonist, making your way through some type of fantastic adventure story. After reading for a few pages, you'd be offered a choice. For example,
 
 - *If you choose to explore the mysterious Cave of Time, turn to page 41*.
 
