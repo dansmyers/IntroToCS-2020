@@ -18,6 +18,8 @@ The CYOA books are part of the larger gaming lineage of **interactive fiction**.
 
 ![](https://upload.wikimedia.org/wikipedia/en/a/ac/Zork_I_box_art.jpg)
 
+*The Zork series published by Infocom was one of the most influential early computer games. You are likely to be eaten by a grue.*
+
 We're going to use Python to write our own text-based Choose Your Own Adventure story. A key idea of this program will be **using functions to organize a complex program**.
 
 - Each "page" of the story will be its own function. Within each function, print a little descriptive text, then prompt the user to make a choice.
