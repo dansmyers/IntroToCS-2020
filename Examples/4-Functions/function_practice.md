@@ -38,7 +38,11 @@ from random import randint
 
 ## Questions
 
+Implement each of the following methods in your `function_pratice` script. Write a few lines of code in the main part of the program to test each function after you write it.
+
+
 ### Coin Flip
+
 Write a function called `flip` that simulates a coin flip by returning a randomly chosen value of 0 or 1.
 
 ### Roll
