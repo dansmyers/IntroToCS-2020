@@ -4,7 +4,7 @@ A tricky set of functions using the same variable name in multiple places. What 
 CMS 195, Spring 2020
 """
 
-def baz(x) 
+def baz(x):
     x = x * 2
     return x    
 
