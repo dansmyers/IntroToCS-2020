@@ -21,7 +21,7 @@ Here is some starter code for your file:
 Practice writing functions that return values
 
 CMS 195, Spring 2020
-```
+"""
 
 from random import randint
 
@@ -61,7 +61,7 @@ def is_7_or_11(roll):
     # Fill in the function body
 ```
 
-### Multidie
+### Live and Let Die
 
 Write a function called `n_sided_die` that takes a parameter `n` as input and simulates rolling an `n` sided die by returning a random
 value in the range [1, `n`].
