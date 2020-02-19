@@ -5,8 +5,8 @@ CMS 195, Spring 2020
 """
 
 def baz(x) 
-    x = x * 2;
-    return x;    
+    x = x * 2
+    return x    
 
 
 def foo(value):
