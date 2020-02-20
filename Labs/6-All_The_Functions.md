@@ -83,11 +83,13 @@ Take a look at the following flag design:
 
 Can you write a group of functions that will print this flag? Try to use the minimum number of individual `print` statements in your program.
 
-Tip: it's easy to write two functions that print the two different lines, but can you modularize things more than that?
+Tip: it's easy to write functions that print entire lines, but can you take advantage of the repeating patterns to break things down more?
 
 ## Would Everyone Please Rise for the Presentation of Our National Colors
 
-Design your own sweet text flag and write a program that uses methods to print it. Again, try to minimize the number of individual `print` statements in your code and try to break things down to the finest level of detail possible.
+Design your own **sweet** text flag and write a program that uses methods to print it.
+
+Again, try to minimize the number of individual `print` statements in your code and try to break things down to the finest level of detail possible.
 
 [Proposal to update the Rollins Alma Mater](https://www.youtube.com/watch?v=fiyL-bKwL4U).
 
