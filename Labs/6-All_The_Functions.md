@@ -61,4 +61,62 @@ die1 = die_roll()
 # Tip: create a count variable and test each die with an if statement
 
 # Print the outcome
+
 ```
+
+## You Will Find True Love on Flag Day
+
+Take a look at the following flag design:
+
+```
++--+--+--+--+--+
++**+  +**+  +**+
++**+  +**+  +**+
++--+--+--+--+--+
++  +**+  +**+  +
++  +**+  +**+  +
++--+--+--+--+--+
++**+  +**+  +**+
++**+  +**+  +**+
++--+--+--+--+--+
+```
+
+Can you write a group of functions that will print this flag? Try to use the minimum number of individual `print` statements in your program.
+
+Tip: it's easy to write two functions that print the two different lines, but can you modularize things more than that?
+
+## Would Everyone Please Rise for the Presentation of Our National Colors
+
+Design your own sweet text flag and write a program that uses methods to print it. Again, try to minimize the number of individual `print` statements in your code and try to break things down to the finest level of detail possible.
+
+[Proposal to update the Rollins Alma Mater](https://www.youtube.com/watch?v=fiyL-bKwL4U).
+
+
+## Binet's Formula
+Recall Binet's formula from assignment 2: it gives a closed-form way of calculating the Fibonacci numbers.
+
+```
+F_n = (1 / sqrt(5)) * (phi ** n - phi_hat ** n)
+```
+
+Where `phi` is the special **golden ratio**:
+
+```
+phi = (1 + sqrt(5)) / 2
+
+phi_hat = (1 - sqrt(5)) / 2
+```
+
+Write a function called `binet` that takes a parameter `n` as input and uses it to calculate and return the `n`th Fibonacci number. Write 
+some code in the main part of your program to test your function.
+
+## One-Armed Bandit
+
+Write a slot machine program.
+
+- Generate three random numbers in the range 0 to 9.
+- If all three numbers are the same, print `Jackpot!`.
+- If two of the three are the same, print `Winner!`.
+
+Design your own functions for this program. Look at the chuck-a-luck game as a template. You don't need to prompt the user for any input.
+
