@@ -36,13 +36,15 @@ if abs(target - guess) > 500:
 
 ## The Subtraction Game
 
-Here's a mathematical strategy game that was played as a challenge on *Survivor: Thailand* where it was called Thai 21.
+Here's a mathematical strategy game. Players alternate taking stones from a pile until none are left:
 
 - Start with a pile of 21 stones.
 
 - On her turn, a player may take 1, 2, or 3 stones from the pile.
 
-- The player who takes the last stone is the winner.
+- The player who takes the last stone is the **winner**.
+
+This game was played as a challenge on *Survivor: Thailand* where they called it Thai 21.
 
 Here is some starting code:
 
