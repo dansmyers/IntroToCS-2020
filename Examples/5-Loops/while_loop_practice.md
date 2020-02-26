@@ -53,7 +53,7 @@ while playing:
     
     # Else, print "You can't do that."
     
-    # If there are 0 stones remaining, set playing = false
+    # If there are 0 stones remaining, set playing = False
     
     # Else, switch to the other player
     
