@@ -19,6 +19,21 @@ Tip: use a guard variable that is initially set to `True`. Use an `if` statement
 
 Write a loop that prints `s m o k e t h e s e m e a t s` 1000 times.
 
+## Hot Or Not?
+
+Modify the number guessing game from our last class to tell the user if they are "Warmer" for guesses close to the target number or
+"Colder" for guesses farther away.
+
+You can make up your own temperature scale.
+
+Tip: use `abs(target - guess)` to get the distance between the target number and the player's guess.
+
+```
+if abs(target - guess) > 500:
+    print('That guess is so cold it swept down from the north with the other glaciers and carved the Great Lakes.')
+
+```
+
 ## The Subtraction Game
 
 Here's a mathematical strategy game that was played as a challenge on *Survivor: Thailand* where it was called Thai 21.
