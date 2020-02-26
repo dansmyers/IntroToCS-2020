@@ -76,5 +76,5 @@ while playing:
 
 Interestingly, under these rules, there is a strategy that guarantees a win for the first player. Can you find it? Hint: if Player 2 begins a turn with four stones, is Player 1 guaranteed a win? What about if Player 2 begins with eight stones?
 
-Thai 21 is a special case of the strategy game called Nim. In Nim, there are usually multiple piles of stones. Players are allowed to
+Thai 21 is a special case of the game **Nim**. In Nim, there are usually multiple piles of stones. Players are allowed to
 take any number of stones, but from only one pile on each turn. In some variations, the player who takes the last stone **loses**.
