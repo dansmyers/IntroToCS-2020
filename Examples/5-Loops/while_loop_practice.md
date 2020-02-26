@@ -30,7 +30,7 @@ Tip: use `abs(target - guess)` to get the distance between the target number and
 
 ```
 if abs(target - guess) > 500:
-    print('That guess swept down from the north with the other glaciers and carved the Great Lakes.')
+    print("That guess wouldn't be colder if it swept down from the north and carved the Great Lakes.")
 
 ```
 
