@@ -15,7 +15,7 @@ Write a loop that repeatedly prompts the user for input and runs until the user 
 Tip: use a guard variable that is initially set to `True`. Use an `if` statement to test if the input is `xyzzy` and set 
 `guard = False` if it is.
 
-## Somebody Asked Me: Do I Smoke Meat?
+## Someone Asked Me, Do I Smoke Meat?
 
 Write a loop that prints `s m o k i n t h e s e m e a t s` 1000 times.
 
