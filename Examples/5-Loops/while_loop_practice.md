@@ -17,7 +17,7 @@ Tip: use a guard variable that is initially set to `True`. Use an `if` statement
 
 ## Somebody Asked Me: Do I Smoke Meat?
 
-Write a loop that prints `s m o k e t h e s e m e a t s` 1000 times.
+Write a loop that prints `s m o k i n t h e s e m e a t s` 1000 times.
 
 ## Hot or Not?
 
