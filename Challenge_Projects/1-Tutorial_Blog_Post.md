@@ -1,6 +1,6 @@
 # Challenge Project: Tutorial Blog Post
 
-## Due on or before the end of the day on Friday, April 24
+## Due by the end of the day on Friday, April 24
 
 That's the Friday before classes end.
 
