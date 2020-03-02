@@ -4,7 +4,7 @@
 
 That's the Friday before classes end.
 
-Note that I **will not** accept late submissions for the challenge projects!
+Note that I **will not accept late submissions** for the challenge projects!
 
 
 ## Description
