@@ -70,6 +70,7 @@ def pyramid(height):
 
     # Use an outer for loop to iterate over the number of rows
     
+    
         # Use an inner for loop to print spaces
         
         
@@ -168,3 +169,35 @@ while looping:
 
 Rewrite the original program to replace the `if`-`else` block with the `while`-based input collection step. Verify that the updated
 code works correctly.
+
+
+## If They're the Mario Brothers, Does That Mean His Name is Mario Mario?
+
+At the end of each level in the original *Super Mario Bros.*, Mario jumps up stairs like the following:
+
+```
+     ##
+    ###
+   ####
+  #####
+ ######
+#######
+```
+
+Write a program with a function called `mario_stairs` that takes a parameter `height` as input and prints the appropriately-sized
+Mario-style stairs.
+
+```
+def mario_stairs(height):
+    """
+    Print Mario-style stairs.
+    
+    Parameter
+    ---------
+    height (int) : the number of levels in the staircase
+```
+
+Tip:
+
+The first level has `height - 1` spaces and two blocks. The second level has `height - 2` spaces and three blocks. Use an outer `for`
+loop over the number of rows and then two inner `for` loops: one for the spaces and a second one for the blocks.
