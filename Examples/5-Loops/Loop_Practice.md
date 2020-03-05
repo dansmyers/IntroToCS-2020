@@ -408,5 +408,4 @@ def game():
 
 ### Main
 game()
-game()
 ```
