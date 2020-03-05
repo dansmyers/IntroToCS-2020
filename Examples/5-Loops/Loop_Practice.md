@@ -195,6 +195,7 @@ def mario_stairs(height):
     Parameter
     ---------
     height (int) : the number of levels in the staircase
+    """
 ```
 
 Tip:
