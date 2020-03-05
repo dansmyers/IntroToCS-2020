@@ -401,7 +401,7 @@ def game():
     while playing:
         play_best_two_of_three()
         
-        response = input('Do you want to play again (Y / N)?')
+        response = input('Do you want to play again (Y / N)? ')
         
         if response == 'N':
             playing = False
