@@ -201,3 +201,212 @@ Tip:
 
 The first level has `height - 1` spaces and two blocks. The second level has `height - 2` spaces and three blocks. Use an outer `for`
 loop over the number of rows and then two inner `for` loops: one for the spaces and a second one for the blocks.
+
+
+## Fibonacci
+
+Recall the famous Fibonacci sequence, where each number is the sum of the two previous Fibonacci numbers:
+
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...
+
+Write a program that uses a `for` loop to calculate and print the first 50 Fibonacci numbers.
+
+```
+prev = 0
+current = 1
+
+# Use a for loop that runs for 50 iterations
+
+    # Inside the loop, print the current Fibonacci number
+    
+    # Calculate the next Fibonacci number
+    next = current + prev
+    
+    # Set prev = current and current = next to advance forward by one number
+
+```
+
+Now modify your program to use a method called `fib` that takes a parameter `n` as input and **returns** the `n`th Fibonacci number.
+
+```
+def fib(n):
+    """
+    Calcuate and return the nth Fibonacci number -- assume n > 1
+    """
+    
+    prev = 0
+    current = 1
+
+    # Use a for loop that runs for n iterations
+
+        # Calculate the next Fibonacci number
+        next = current + prev
+
+        # Set prev = current and current = next to advance forward by one number
+
+    return current
+
+### Main
+print(fib(5))
+print(fib(10))
+```
+
+
+## Baby Needs a New Pair of Shoes
+
+**This problem is on Assignment 6. Completing it will give you an example that will help with the other two simulation problems.**
+
+What is the average value obtained by rolling two dice?
+
+One way to solve this problem is to reason about the underlying probabilities. Another way is to simply **simulate** a large number
+of dice rolls and calculate the average from the simulated results. With high probability, the simulated average should be a close
+approximation of the true average.
+
+This type of program is called a **Monte Carlo simulation**, named after the famous Monte Carlo casino complex in the tiny
+European principality of Monaco.
+
+Fill in the `main` of the program below. Use a `for` loop to call `simulate` 1000 times and add up the results of all the simulated
+die rolls. At the end of the program, calculate the average over all 1000 trials.
+
+```
+"""
+Simulate the average of rolling two dice
+
+CMS 195 Spring 2020
+"""
+
+from random import seed, randint
+
+def simulate():
+    """
+    Roll two dice and return their sum
+    """
+    
+    # Fill in the body of this method
+    # Generate two random die rolls and return their sum
+    
+
+### Main
+
+seed(0)  # DON'T MODIFY THIS LINE
+
+total = 0
+
+# Use a for loop that runs for 1000 trials
+
+    # Inside the loop, call simulate and add the value it returns to the running total
+
+
+# Print the average of all 1000 simulations
+print(total / 1000)
+```
+
+## Ultimate RPS
+
+Let's update the rock-paper-scissors game to play best two out of three and allow the user to play multiple games.
+
+Take a look at the starting code below and fill in the missing pieces.
+
+```
+"""
+Ultimate RPS
+
+CMS 195, Spring 2020
+"""
+
+from random import randint
+
+def play_rps():
+    """
+    Play one round of RPS.
+    
+    Returns
+    -------
+    'draw' if the players draw
+    'player' if the player wins
+    'cpu' if the cpu wins
+    """
+    
+    ROCK = 1
+    PAPER = 2
+    SCISSORS = 3
+    
+    print('1. Rock')
+    print('2. Paper')
+    print('3. Scissors')
+    
+    getting_input = True
+    while getting_input:
+        player_move = int(input('Choose your move: '))
+    
+        # TODO: Test if the player move is valid
+        # If it is, set getting_move = false
+        # If it isn't, print an error message and keep looping
+ 
+    # Choose a random computer move
+    cpu_move = randint(1, 3)
+    
+    if cpu_move == ROCK:
+        print('I rock.')
+    
+    # TODO: Add two more cases for the other CPU moves
+    
+    # TODO: Test for a draw. If both moves are the same return 'draw'
+    
+    # TODO: Test for the winner
+    #
+    # If the player wins, return `player`
+    # If the computer wins, return `cpu`
+    
+    return player
+    
+
+def play_best_two_of_three():
+    """
+    Play RPS until either the player or CPU wins two games
+    
+    Most of the work is in the play_rps method, which returns a string naming the winner
+    """
+    
+    player_wins = 0
+    cpu_wins = 0
+    
+    while player_wins < 2 and cpu_wins < 2:
+        
+        # TODO: Print the current score for the player and computer
+        
+        print('Ready? FIGHT!')
+    
+        winner = play_rps()
+        
+        if winner == 'player':
+            player_wins += 1
+        elif winner == 'cpu':
+            cpu_wins += 1
+            
+    if player_wins == 2:
+        print('You are the supreme champion.')
+    else:
+        print('Resistance is futile.')
+        
+        
+
+def game():
+    """
+    The main game loop: play one round, then prompt the user to continue or not
+    """
+    
+    playing = True
+    
+    while playing:
+        play_best_two_of_three()
+        
+        response = input('Do you want to play again (Y / N)?')
+        
+        if response == 'N':
+            playing = False
+
+### Main
+game()
+game()
+```
