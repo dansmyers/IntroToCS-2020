@@ -4,28 +4,34 @@
 
 In this challenge project, you'll complete some problems from [Project Euler](http://projecteuler.net), a site that hosts a lot of interesting mathematical programming challenges.
 
-If you successfully complete all three problems, your final grade will be increased by one part of a letter (e.g. B to B+). Remember that you can also use this project to raise your letter grade if you've lost credit for any reason.
+If you successfully complete all four problems, your final grade will be increased by one part of a letter (e.g. B to B+, or B+ to A-). Remember that you can also use this project to raise your letter grade if you've lost credit for any reason.
 
-The project description is simple: solve any three problems from the [Project Euler problem list](https://projecteuler.net/archives).
-We already did Problem 1 as an example in class, so that one doesn't count.
+The project is straightforward: solve the four Project Euler problems described below.
 
 ## Grading
 
 There are no automated tests for this project. To get credit, come show me your code and talk through the approach you used to solve
 each problem.
 
-You can get credit any time before the end of the day on December 6 (the last day of classes), but please plan ahead so that we don't have a traffic jam of people trying to turn in projects at the last minute.
+You can get credit any time before the end of the day on April 24 (the Friday before the last day of classes), but please plan ahead so that we don't have a traffic jam of people trying to turn in projects at the last minute.
 
-## Example Problems
+## Problems
 
-These are three of my favorite problems from the list, along with a few tips for solving them. You can complete these or pick different ones that interest you.
+### Sum Square Difference (Problem 6)
 
+The sum of the squares of the first ten natural numbers is,
 
-### Smallest Multiple (Problem 5)
+1<sup>2</sup> + 2<sup>2</sup> + ...+ 10<sup>2</sup> = 385
 
-2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+The square of the sum of the first ten natural numbers is,
 
-What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+(1 + 2 + ... + 10)<sup>2</sup> = 55<sup>2</sup> = 3025
+
+Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is
+
+3025 − 385 = 2640.
+
+Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
 ### 10001st Prime (Problem 7)
 
