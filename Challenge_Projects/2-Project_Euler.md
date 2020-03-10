@@ -93,7 +93,8 @@ for a in range(1, 1000):
  
 ```
 
-This could work, but is inefficient because it keeps evaluating the same combinations over and over again.
+This could work, but is inefficient because it has to evaluate 1000 * 1000 * 1000 combinations. It also wastes time evaluating combinations that can't possible by correct, like 1-1-1, and evaluates the same combinations of `a` and `b` multiple times.
+
 Can you simplify the loops? Maybe you don't need a dedicated loop for `c`?
 
 ### Longest Collatz Sequence (Problem 14)
