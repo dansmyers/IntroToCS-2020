@@ -78,6 +78,24 @@ For example, 3<sup>2</sup> + 4<sup>2</sup> = 9 + 16 = 25 = 5<sup>2</sup>.
 
 There exists exactly one Pythagorean triplet for which *a* + *b* + *c* = 1000. Find the product *abc*.
 
+Tips:
+
+A straightforward way to attack the problem is this:
+
+```
+for a in range(1, 1000):
+    for b in range(1, 1000):
+        for c in range(1, 1000):
+            
+            # Test if a + b + c == 1000 and the three numbers are a Pythagorean triple
+
+            # If they are, output them and the product abc and then end the program
+ 
+```
+
+This could work, but is inefficient because it keeps evaluating the same combinations over and over again.
+Can you simplify the loops? Maybe you don't need a dedicated loop for `c`?
+
 ### Longest Collatz Sequence (Problem 14)
 
 The following iterative sequence is defined for the set of positive integers:
