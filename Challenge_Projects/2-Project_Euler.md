@@ -48,7 +48,7 @@ int n = 2;
 int numPrimes = 0;
 
 while (true) {
-    if (isPrimes(n)) {
+    if (isPrime(n)) {
         numPrimes++;
     }
     
