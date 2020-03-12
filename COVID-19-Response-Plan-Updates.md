@@ -28,14 +28,20 @@ and note in your submission who you worked with.
 You can, if you like, think of this as an environment where we're still completing indvidual assignments, but you're allowed to
 freely discuss and check your work with your fellow students.
 
+**Please remember that I'm always available to help you and answer your questions**. The format of our course has changed, but I'm 
+still your professor and I'm still committed to helping each of you succeed.
+
+You should always feel free to get in touch with me by e-mail, by Slack (discussed below), or in WebEx. If you need to set up a time
+to meet live via WebEx, I'm happy to accomodate that.
+
 ## Tools
 
 ### Slack
 
-Slack is an instant messaging app that's now being widely used as a replacement for e-mail in many companies. I've created a Slack
+Slack is an instant messaging app that's now widely used as a replacement for e-mail in many companies. I've created a Slack
 channel for our class, `#cms-195-spring-2020`.
 
-Use the invite link posted to Canvas to join the channel. Once you've joined, post a quick intro message to let me know you've made it.
+Use the invite link posted to Canvas to join the channel. Once you've joined, post a quick intro message and a meme to let me know you've made it.
 
 Slack will be for general questions, daily check-ins, posting memes and links, etc. It's intended to be a way for us to stay engaged
 with each other and to provide opportunities for casual question and answer sessions and collaboration. I won't be using Slack to 
@@ -53,8 +59,8 @@ We'll keep using Canvas for grades, official course e-mails, and posting course-
 
 I'll use WebEx for online office hours, discussed in more detail below.
 
-**I do not plan to lecture synchronously over WebEx**. I know that the initial guidance from the Provost emphasized delivering classes synchronously, but I don't think that format is well-suited for our course. Instead, we will deliver most of the basic course content
-asynchronously and use video conferencing for check-ins and office hours.
+**I do not plan to lecture synchronously over WebEx**. I know that our initial guidance from the Provost emphasized delivering classes synchronously, but I don't think that format is well-suited for our course. Instead, we will deliver most of the basic course content
+asynchronously, using videos and readings, and use video conferencing for check-ins and office hours.
 
 ## Updated Course Schedule
 
@@ -62,5 +68,9 @@ asynchronously and use video conferencing for check-ins and office hours.
 
 ## Content Delivery and Office Hours
 
+### Course Content
+
+
+### Office Hours
 
 
