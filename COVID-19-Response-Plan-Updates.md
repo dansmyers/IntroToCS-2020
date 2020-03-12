@@ -5,14 +5,11 @@
 This document describes the changes we'll be making to the class in response to our shift to virtual instruction for the second half of
 Spring 2020.
 
-Please read this carefully and let me know if you have questions. It covers
+Please read this carefully and let me know if you have questions. It covers:
 
 - Tools we're going to use.
-
 - Updates to our schedule and assignments.
-
 - My plans for delivering content to you.
-
 - How office hours will work.
 
 Some things, like the status of the final exam, are still uncertain. I'll make decisions on those once we've had a few weeks to adjust to
