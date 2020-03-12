@@ -1,4 +1,4 @@
-# Course Updates
+# CMS 195 Spring 2020: COVID-19 Response Plan
 
 ## Contents
 
