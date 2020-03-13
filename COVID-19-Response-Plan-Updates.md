@@ -4,6 +4,7 @@
 
 
 <img src="https://i.chzbgr.com/full/9448822784/h7ECBF525/neil-diamond-reaching-out-cdc-please-avoid-neil-diamond-touching-cdc-everyone-is-boston-is-doomed" width="50%" />
+
 ## Contents
 
 This document describes the changes we'll be making to the class in response to our shift to virtual instruction for the second half of
