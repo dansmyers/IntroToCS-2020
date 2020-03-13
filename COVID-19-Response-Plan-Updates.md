@@ -1,5 +1,7 @@
 # CMS 195 Spring 2020: COVID-19 Response Plan
 
+![](https://www.memebase.cheezburger.com%2Ftag%2Fclassic&psig=AOvVaw1GLofcNv19YDwRYYKm5QRA&ust=1584196973018000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIie3MTZl-gCFQAAAAAdAAAAABAD)
+
 ## Contents
 
 This document describes the changes we'll be making to the class in response to our shift to virtual instruction for the second half of
@@ -15,24 +17,23 @@ Please read this carefully and let me know if you have questions. It covers:
 Some things, like the status of the final exam, are still uncertain. I'll make decisions on those once we've had a few weeks to adjust to
 the new course format.
 
-## Collaboration
-
-Previously, I'd encouraged you to talk with your classmates about the course work, but to develop all of your submissions indpendently.
-Under our new situation, **I don't want you to feel isolated**, so I'm now **encouraging you to collaborate freely** to complete the
-course work.
-
-**Collaboration is an option**, not a requirement, and I won't be creating teams or assigning group projects. If you do choose to
-work with others, I just ask that you still submit your work individually (so I have a record of everything that was turned in)
-and note in your submission who you worked with.
-
-You can, if you like, think of this as an environment where we're still completing indvidual assignments, but you're allowed to
-freely discuss and check your work with your fellow students.
-
 **Please remember that I'm always available to help you and answer your questions**. The format of our course has changed, but I'm 
 still your professor and I'm still committed to helping each of you succeed.
 
 You should always feel free to get in touch with me by e-mail, by Slack (discussed below), or in WebEx. If you need to set up a time
 to meet live via WebEx, I'm happy to accomodate that.
+
+## Collaboration
+
+Previously, I'd encouraged you to talk with your classmates about the course work, but to develop all of your submissions indpendently.
+Under our new situation, **I don't want you to feel isolated**, so I'm now **encouraging you to collaborate freely** to complete the
+course work. To start, I'll group you into teams roughly based on the people that you've been working with in class so far. Think of your team as your remote study group. 
+
+Note that we're not doing "group projects": **please continue to submit your work individually** so I have a record of everything that's 
+turned in. You can, if you like, think of this as an environment where we're still completing indvidual assignments, but you're allowed 
+to freely discuss and check your work with your fellow students.
+
+We'll stay with the initial teams for a couple of weeks: if you want rearrange to work with other people or if you'd prefer to work independently after that point then you can feel free to make changes.
 
 ## Tools
 
