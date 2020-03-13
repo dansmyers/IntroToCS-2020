@@ -1,6 +1,6 @@
 # CMS 195 Spring 2020: COVID-19 Response Plan
 
-![](https://www.memebase.cheezburger.com%2Ftag%2Fclassic&psig=AOvVaw1GLofcNv19YDwRYYKm5QRA&ust=1584196973018000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIie3MTZl-gCFQAAAAAdAAAAABAD)
+![](https://i.chzbgr.com/full/9448823040/hDD42FB11/understand-cdc-s-covid-19-beatles-wanna-hold-hand-cdc-not-advisable-beatles-wanna-hold-hand-cdc-no)
 
 ## Contents
 
