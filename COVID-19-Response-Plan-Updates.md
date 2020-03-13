@@ -1,6 +1,6 @@
 # CMS 195 Spring 2020: COVID-19 Response Plan
 
-![](https://i.chzbgr.com/full/9448823040/hDD42FB11/understand-cdc-s-covid-19-beatles-wanna-hold-hand-cdc-not-advisable-beatles-wanna-hold-hand-cdc-no)
+<img src="https://i.chzbgr.com/full/9448823040/hDD42FB11/understand-cdc-s-covid-19-beatles-wanna-hold-hand-cdc-not-advisable-beatles-wanna-hold-hand-cdc-no" width="50%" />
 
 ## Contents
 
