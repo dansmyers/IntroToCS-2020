@@ -2,6 +2,8 @@
 
 <img src="https://i.chzbgr.com/full/9448823040/hDD42FB11/understand-cdc-s-covid-19-beatles-wanna-hold-hand-cdc-not-advisable-beatles-wanna-hold-hand-cdc-no" width="50%" />
 
+
+<img src="https://i.chzbgr.com/full/9448822784/h7ECBF525/neil-diamond-reaching-out-cdc-please-avoid-neil-diamond-touching-cdc-everyone-is-boston-is-doomed" width="50" />
 ## Contents
 
 This document describes the changes we'll be making to the class in response to our shift to virtual instruction for the second half of
