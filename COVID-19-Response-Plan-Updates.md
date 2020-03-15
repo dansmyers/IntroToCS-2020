@@ -136,6 +136,10 @@ There will be a reflective writing challenge project posted toward the end of th
 
 ### Course Content
 
+I'll post a set of files to this GitHub repo outlining the topics, resources, and project deliverable for each two week unit. The 
+resources will include some videos I'll make covering examples that we would have done in-person in the regular class, plus some readings
+from *Think Python* or other supplemental web resources.
+
 
 
 ### Office Hours
