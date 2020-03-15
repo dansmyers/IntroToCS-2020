@@ -5,7 +5,7 @@
 <img src="https://i.chzbgr.com/full/9448823040/hDD42FB11/understand-cdc-s-covid-19-beatles-wanna-hold-hand-cdc-not-advisable-beatles-wanna-hold-hand-cdc-no" width="50%" />
 
 
-<img src="https://i.chzbgr.com/full/9448822784/h7ECBF525/neil-diamond-reaching-out-cdc-please-avoid-neil-diamond-touching-cdc-everyone-is-boston-is-doomed" width="50%" />
+<img src="https://cdn.dopl3r.com//media/memes_files/pj-theberge-atpj-theberge-cdc-wash-your-hands-frequently-neil-diamond-haaaaaands-cdc-coronavirus-is-contagious-neil-diamond-touching-haaaands-cdc-dont-touch-hands-neil-diamond-reaching-ouuuuut-cdc-please-avoid-that-neil-diamond-tou-rnS7Q.jpg" width="50%" />
 
 ## Contents
 
@@ -48,9 +48,10 @@ channel for our class, `#cms-195-spring-2020`.
 
 Use the invite link posted to Canvas to join the channel. Once you've joined, post a quick intro message and a meme to let me know you've made it.
 
-Slack will be for general questions, daily check-ins, posting memes and links, etc. It's intended to be a way for us to stay engaged
-with each other and to provide opportunities for casual question and answer sessions and collaboration. I won't be using Slack to 
-distribute course content.
+Slack will be for general discussions, questions about course logistics, check-ins, posting memes and links, etc. It's intended to be a 
+way for us to stay engaged with each other and to provide opportunities for casual question and answer sessions and collaboration.
+
+**I won't distribute course content through Slack**.
 
 ### GitHub
 
@@ -58,7 +59,8 @@ We'll continue to use this GitHub site, `dansmyers/IntroToCS`, to keep distribut
 
 ### Canvas
 
-We'll keep using Canvas for grades, official course e-mails, and posting course-specific links that I don't want to put on GitHub.
+We'll keep using Canvas for grades, official course e-mails, and posting course-specific links that I don't want to put on the public 
+GitHub.
 
 ### WebEx
 
@@ -69,7 +71,7 @@ asynchronously, using videos and readings, and use video conferencing for check-
 
 ## Updated Course Schedule
 
-## Remaining Topics
+### Remaining Topics
 
 We have three major topics to get through for the rest of the semester:
 
@@ -120,11 +122,18 @@ projects that are in Problem Set 6. I feel comfortable leaving that as a suffici
 
 ### Challenge Projects
 
+Two challenge projects have been posted:
 
+- Writing a tutorial blog post about a feature of Python or example problem. To simplify this project: **you don't need to publish your post on the web**. You can complete the post in a regular text editor and then upload it to an assignment on Canvas that I'll create.
+
+- Solving some problems from Project Euler.
+
+There will be a reflective writing challenge project posted toward the end of the semester and one more programming-related project.
 
 ## Content Delivery and Office Hours
 
 ### Course Content
+
 
 
 ### Office Hours
