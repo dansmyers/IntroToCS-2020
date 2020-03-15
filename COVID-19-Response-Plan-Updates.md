@@ -7,6 +7,8 @@
 
 <img src="https://cdn.dopl3r.com//media/memes_files/pj-theberge-atpj-theberge-cdc-wash-your-hands-frequently-neil-diamond-haaaaaands-cdc-coronavirus-is-contagious-neil-diamond-touching-haaaands-cdc-dont-touch-hands-neil-diamond-reaching-ouuuuut-cdc-please-avoid-that-neil-diamond-tou-rnS7Q.jpg" width="50%" />
 
+<img src="https://imgs.xkcd.com/comics/2010_and_2020_2x.png" width="50%" />
+
 ## Contents
 
 This document describes the changes we'll be making to the class in response to our shift to virtual instruction for the second half of
