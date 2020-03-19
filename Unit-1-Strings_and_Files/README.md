@@ -10,7 +10,7 @@ This is our first post-break unit, one of the three we're going to complete befo
 
 ## Project: Number One Jams
 
-<img src="https://upload.wikimedia.org/wikipedia/en/a/ad/Gangnam_Style_Official_Cover.png" width="50%" />
+<img src="https://upload.wikimedia.org/wikipedia/en/a/ad/Gangnam_Style_Official_Cover.png" width="25%" />
 
 ### Description
 
