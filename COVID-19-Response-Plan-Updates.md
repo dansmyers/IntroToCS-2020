@@ -73,6 +73,8 @@ asynchronously, using videos and readings, and use video conferencing for check-
 
 ## Updated Course Schedule
 
+<img src="https://imgs.xkcd.com/comics/2010_and_2020_2x.png" width="55%"/>
+
 ### Remaining Topics
 
 We have three major topics to get through for the rest of the semester:
@@ -150,8 +152,6 @@ I'll use our scheduled class times (2:30 on Mondays and Wednesdays) for interact
 
 ## Suggestions
 
-<img src="https://imgs.xkcd.com/comics/2010_and_2020_2x.png" width="55%"/>
-
 This is a tough time for all of us. Ultimately, what happens in this class is not the most important thing in the world right now. Our
 goal is to get through the rest of the semester with the best experience possible, while managing all of the other craziness that's
 happening around us.
@@ -167,5 +167,6 @@ are dealing with additional family responsibilities now that most K-12 schools a
 a major issue that's making it hard for you to access the class material or work on the assignments**. We'll try to proceed with as
 much flexibility as possible.
 
+We're going to get through this.
 
-
+<img src="https://urbanmatter.com/chicago/wp-content/uploads/2020/03/complicated-plant-meme.png" width="50%" />
