@@ -117,6 +117,8 @@ For example, the output above shows that Psy's "Gangnam Style", released in 2012
  
 ### Questions to Answer
 
+<img src="https://upload.wikimedia.org/wikipedia/en/f/f5/Elvis_Presley_LPM-1254_Album_Cover.jpg" width="25%" />
+
 1. How many songs are in the entire data set?
 
 2. Which artist has more all-time chart appearances: Prince or Madonna?
