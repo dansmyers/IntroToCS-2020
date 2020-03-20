@@ -44,15 +44,17 @@ by aggregating various factors, including radio airplay and, in the modern era, 
 
 The data for the project is taken from the TSorT music pages, which compile lots of information about music charts from all over the world:
 
-http://www.tsort.info/music/index.htm
+https://tsort.info/music/
 
-I have processed the raw CSV file containing all of their chart entries to extract only the data for songs that made the US Hot 100 music 
-charts from 1950 to the beginning of 2013, which was the most recent data at the time I put together the data set.
+I have processed the raw CSV file containing all of their chart entries to extract only the data for songs that made the US Hot 100 
+music charts from 1950 to the beginning of 2013, which was the most recent data at the time I put together the data set.
 
 ### Getting the Data
 
-Download the file `billboard_chart_data.txt` that's posted to Canvas. Upload it to your Mimir workspace by going to `File --> Upload` and
-then selecting `billboard_chart_data.txt` from your downloads directory.
+**Use these instructions to upload `billboard_chart_data.txt` and `words.txt` to your Mimir workspace**.
+
+Download the file `billboard_chart_data.txt` that's posted to Canvas. Upload it to your Mimir workspace by going to `File --> Upload` 
+and then selecting `billboard_chart_data.txt` from your downloads directory.
 
 Mimir automatically uploads the file into your home directory. You can move it to `CMS_195/Strings_and_Files` using the command
 
