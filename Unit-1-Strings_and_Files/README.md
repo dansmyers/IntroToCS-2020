@@ -1,23 +1,44 @@
 # Strings and Files
 
+## Due Sunday, April 5, at 11:59 PM
+
 ## Description
 
-This is our first post-break unit, one of the three we're going to complete before the end of the semester.
+This is our first post-break unit, one of the three we're going to complete before the end of the semester. We have the following goals:
 
+1. Learn more about working with strings in Python, including how to index individual characters in a string. These techniques will show up again in the next unit when we look at lists and dictionaries.
 
-## 
+2. Learn how to work with text files. We'll focus on opening and reading through files, then using string processing to pick out data values of interest.
+
+3. Complete a project where you'll use files and strings to answer questions about data from the *Billboard* music charts.
+
+## To-Do List
+
+- Connect with your team members on Slack. I recommend establishing a goal of checking in each day so you stay engaged with each other.
+
+- Continue working on the autograded Mimir assignments. This unit will give you the tools you need to complete Assignment 7.
+
+- Read through the deliverable project described below to get an idea of what you need to complete during the unit.
+
+- Watch the videos posted to Canvas. I recommend watching the videos one-at-a-time: don't binge watch them. Remember that you can pause, rewind, or rewatch the videos as needed.
+
+- Read [Chapter 8 of *Think Python*](http://greenteapress.com/thinkpython2/html/thinkpython2009.html) on strings, indexing, and looping.
+
+- Finally, complete the project described below. Submit your code and a text file with your answers to the assignment posted to Canvas.
 
 
 ## Project: Number One Jams
 
-<img src="https://upload.wikimedia.org/wikipedia/en/a/ad/Gangnam_Style_Official_Cover.png" width="25%" />
+<img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Lady_Gaga_-_Bad_Romance.png" width="25%" />
+
+*Because the greatest record of the past decade is "Bad Romance" twelve times*.
 
 ### Description
 
 *Billboard* magazine publishes weekly charts tracking the popularity of songs and albums across a variety of genres. 
-In this project you’ll work with a data set containing information from the last 64 years of the *Billboard* charts.
+In this project you’ll work with a data set containing information from 64 years of the *Billboard* charts.
 We're going to work with data taken from the **Hot 100**, which tracks the 100 most popular songs in the country, determined
-by aggregating various factors, including radio airplay and, more recently, streams.
+by aggregating various factors, including radio airplay and, in the modern era, streams.
 
 ### Source
 
@@ -25,8 +46,8 @@ The data for the project is taken from the TSorT music pages, which compile lots
 
 http://www.tsort.info/music/index.htm
 
-I have processed the raw CSV file containing all of their chart entries to extract only the data for songs that made the US Hot 100 music charts from
-1950 to the beginning of 2013.
+I have processed the raw CSV file containing all of their chart entries to extract only the data for songs that made the US Hot 100 music 
+charts from 1950 to the beginning of 2013, which was the most recent data at the time I put together the data set.
 
 ### Getting the Data
 
