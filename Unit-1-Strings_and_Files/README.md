@@ -133,10 +133,10 @@ for songs released in 1991 or earlier and songs released in 1992 or later.
 
 ### Submission
 
-Write one `.py` file for each question. Upload all your files and **text files containing the outputs of your programs** to the assignment
-I've created on Canvas.
+Write one `.py` file for each question. Upload all your files and **a text file containing the answer to the questions** to the 
+assignment I've created on Canvas.
 
-**Please upload an individual submission**, even if you've worked with other to complete the project.
+**Please upload an individual submission**, even if you've worked with others to complete the project.
 
 ### Tips
 
