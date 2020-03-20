@@ -119,9 +119,8 @@ text analysis, and predictive modeling. If we were in-person, I'd be able to qui
 features and answer your questions, but I don't feel comfortable expecting you to work with unfamiliar software in the remote
 format.
 
-Here's my plan: the first project will require you do a little bit of data analysis to answer some questions about the history of
-the Billboard record charts. After that point, we'll have completed about four labs, in addition to the other simulation-related
-projects that are in Problem Set 6. I feel comfortable leaving that as a sufficient amount of lab work for this semester.
+Here's my plan: we have a combination of the labs we completed before the break, plus the simulation projects in Assignment 6, plus a 
+couple of other examples I'll show you during our online sessions. That will be enough to get us through the semester.
 
 ### Challenge Projects
 
