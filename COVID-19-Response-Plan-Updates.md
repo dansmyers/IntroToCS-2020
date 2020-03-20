@@ -4,10 +4,8 @@
 
 <img src="https://i.chzbgr.com/full/9448823040/hDD42FB11/understand-cdc-s-covid-19-beatles-wanna-hold-hand-cdc-not-advisable-beatles-wanna-hold-hand-cdc-no" width="50%" />
 
-
 <img src="https://cdn.dopl3r.com//media/memes_files/pj-theberge-atpj-theberge-cdc-wash-your-hands-frequently-neil-diamond-haaaaaands-cdc-coronavirus-is-contagious-neil-diamond-touching-haaaands-cdc-dont-touch-hands-neil-diamond-reaching-ouuuuut-cdc-please-avoid-that-neil-diamond-tou-rnS7Q.jpg" width="50%" />
 
-<img src="https://imgs.xkcd.com/comics/2010_and_2020_2x.png" width="66%"/>
 
 ## Contents
 
@@ -59,6 +57,8 @@ way for us to stay engaged with each other and to provide opportunities for casu
 
 We'll continue to use this GitHub site, `dansmyers/IntroToCS`, to keep distributing class content, handouts, and examples.
 
+Each course unit will its own directory. The first one is `Unit-1-Strings_and_Files`.
+
 ### Canvas
 
 We'll keep using Canvas for grades, official course e-mails, and posting course-specific links that I don't want to put on the public 
@@ -90,7 +90,7 @@ My plan is to dedicate about two weeks to each unit. Each of the remaining units
 
 | Unit         | Topic                         | Start  |   End  | Deliverable     |
 | -------------|-----------------------------|--------|--------|-----------------|
-| 1            | Files and Strings           |   3/25 |  4/5  | Number One Jams (Billboard Chart Data Analysis)  |
+| 1            | Files and Strings           |   3/25 |  4/5  | Keep Working on Assignments  |
 | 2            | Lists and Dictionaries      |   4/6 |  4/19  | It's a Secret to Everybody (Cryptography)    |
 | 3            | Classes and Objects         |  4/20  |  End of the Semester  | Build Something Awesome |
 
@@ -130,18 +130,42 @@ Two challenge projects have been posted:
 
 - Solving some problems from Project Euler.
 
-There will be a reflective writing challenge project posted toward the end of the semester and one more programming-related project.
+There will be a reflective writing challenge project posted toward the end of the semester and (depending on how we're doing) one more programming-related project.
 
 ## Content Delivery and Office Hours
 
 ### Course Content
 
-I'll post a set of files to this GitHub repo outlining the topics, resources, and project deliverable for each two week unit. The 
-resources will include some videos I'll make covering examples that we would have done in-person in the regular class, plus some readings
-from *Think Python* or other supplemental web resources.
-
+I'll post a set of files to this GitHub repo outlining the topics, resources, and deliverables for each two week unit. The 
+resources will include some videos I'll make covering examples that we would have done in-person in the regular class, plus some 
+readings from *Think Python* or other supplemental web resources.
 
 
 ### Office Hours
+
+I'll use our scheduled class times (2:30 on Mondays and Wednesdays) for interactive office hours via WebEx. Before each office hour period, I'll post a link to a Google doc that you can use to ask questions that you want to have answered, then use the office hour time to work through each request. I am working on a plan for recording and uploading the WebEx sessions so that you can review them even if you aren't able to join live.
+
+**We will not meet via WebEx during the scheduled lab period on Thursdays**. My suggestion is that you block that time out as dedicated work time for this class.
+
+
+## Suggestions
+
+<img src="https://imgs.xkcd.com/comics/2010_and_2020_2x.png" width="55%"/>
+
+This is a tough time for all of us. Ultimately, what happens in this class is not the most important thing in the world right now. Our
+goal is to get through the rest of the semester with the best experience possible, while managing all of the other craziness that's
+happening around us.
+
+Please stay in touch with the class. As Associate Dean Russell told some students in an earlier message, "Now is not the time to turtle."
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/T.h._hermanni_con_speroni_5.JPG" width="50%" />
+
+*Do not want*.
+
+Keep a healthy schedule and block out some time to work on each of your classes. I recognize that many of you, like my wife and I,
+are dealing with additional family responsibilities now that most K-12 schools are closed. **Let me know as soon as possible if there's 
+a major issue that's making it hard for you to access the class material or work on the assignments**. We'll try to proceed with as
+much flexibility as possible.
+
 
 
