@@ -94,6 +94,7 @@ My plan is to dedicate about two weeks to each unit. Each of the remaining units
 | 2            | Lists and Dictionaries      |   4/6 |  4/19  | It's a Secret to Everybody (Cryptography)    |
 | 3            | Classes and Objects         |  4/20  |  End of the Semester  | Build Something Awesome |
 
+
 ### Autograded Problem Sets
 
 Continue to work on the autograded problem sets. You are still responsible for finishing at least 90% of the autograded problems
