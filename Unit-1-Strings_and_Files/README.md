@@ -20,6 +20,9 @@ This is our first post-break unit, one of the three we're going to complete befo
 
 - Read through the deliverable project described below to get an idea of what you need to complete during the unit.
 
+- Use the instructions below to download the data files from Canvas and upload them to your Mimir workspace so you can follow along
+with the examples in the videos. Note that you don't need to upload or download any special files to do Assignment 7: the file for that project is automatically loaded with all of the tests.
+
 - Watch the videos posted to Canvas. I recommend watching the videos one-at-a-time: don't binge watch them. Remember that you can pause, rewind, or rewatch the videos as needed.
 
 - Read [Chapter 8 of *Think Python*](http://greenteapress.com/thinkpython2/html/thinkpython2009.html) on strings, indexing, and looping.
@@ -52,6 +55,9 @@ music charts from 1950 to the beginning of 2013, which was the most recent data 
 ### Getting the Data
 
 **Use these instructions to upload `billboard_chart_data.txt` and `words.txt` to your Mimir workspace**.
+
+Note that the autograded tests for Assignment 7 already have the `words.txt` file pre-loaded, so you don't need to do any special 
+downloads or uploads to complete those questions.
 
 Download the file `billboard_chart_data.txt` that's posted to Canvas. Upload it to your Mimir workspace by going to `File --> Upload` 
 and then selecting `billboard_chart_data.txt` from your downloads directory.
