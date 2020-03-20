@@ -123,7 +123,7 @@ For example, the output above shows that Psy's "Gangnam Style", released in 2012
 
 3. Find and print all of the number one hits by Elvis Presley.
 
-4. Which song spent the longest number of weeks on the charts?
+4. Which song spent the greatest total number of weeks on the charts?
 
 5. A major change in the charts took place in late 1991, when *Billboard* switched to using Nielsen’s SoundScan 
 technology to automatically track radio play of songs. Prior to 1991, song popularity was determined from surveys filled 
