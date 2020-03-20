@@ -31,7 +31,7 @@ This is our first post-break unit, one of the three we're going to complete befo
 
 <img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Lady_Gaga_-_Bad_Romance.png" width="25%" />
 
-*Because the greatest record of the past decade is "Bad Romance" twelve times*.
+*Hot take: the greatest record of the 21st Century so far is "Bad Romance" twelve times*.
 
 ### Description
 
