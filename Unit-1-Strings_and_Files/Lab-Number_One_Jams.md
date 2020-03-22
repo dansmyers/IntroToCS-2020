@@ -56,6 +56,7 @@ Glee Cast;Wanna Be Startin' Something;2012;78;1
 Adam Levine;Yesterday;2012;68;1
 The Lumineers;Ho Hey;2013;3;62
 ```
+
 Each line records information on one song. The five fields are:
 - The artist
 - The song title
@@ -66,6 +67,7 @@ Each line records information on one song. The five fields are:
 For example, the output above shows that Psy's "Gangnam Style", released in 2012, made it up to number 2 and spent a total of 31 weeks
  on the charts.
  
+ <img src="https://upload.wikimedia.org/wikipedia/en/a/ad/Gangnam_Style_Official_Cover.png", width="25%" />
  
 ## Practice Questions
 <img src="https://upload.wikimedia.org/wikipedia/en/f/f5/Elvis_Presley_LPM-1254_Album_Cover.jpg" width="25%" />
