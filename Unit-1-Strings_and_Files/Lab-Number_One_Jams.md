@@ -64,23 +64,117 @@ Each line records information on one song. The five fields are:
 - The maximum position attained by the song during its life on the charts
 - The total number of weeks on the charts
 
+The fields are separated by **semicolons**.
+
 For example, the output above shows that Psy's "Gangnam Style", released in 2012, made it up to number 2 and spent a total of 31 weeks
  on the charts.
  
  <img src="https://upload.wikimedia.org/wikipedia/en/a/ad/Gangnam_Style_Official_Cover.png" width="25%" />
  
+## Example Programs
+
+Here's the simplest file example: open the file and print every line.
+
+```
+"""
+Print the Billboard data set
+"""
+
+with open('billboard_chart_data.txt', 'r') as f:
+    for line in f:
+        line = line.strip()
+        print line
+```
+
+This example illustrates the `with` block. If the open command fails (for example, because the file can't be opened or the name
+is wrong) then the code in the `with` block never executes. This is a safe way to open a file, because you'll never attempt to read
+lines from a non-open file, which would make the OS angry.
+
+You can break each line into its component fields using the `split` function. This program opens the file, scans through the lines,
+breaks each line into parts, and then prints only the artist names.
+
+```
+"""
+Print the Billboard data set
+"""
+
+with open('billboard_chart_data.txt', 'r') as f:
+    for line in f:
+        line = line.strip()
+        fields = line.split(';')  # Split the line into parts using ; as the separator
+        
+        # The fields are indexed using [ ], just like string characters
+        artist = fields[0]
+        song = fields[1]
+        year = int(fields[2])
+        max_chart_position = int(fields[3])
+        weeks_on_chart = int(fields[4])
+        
+        print(artist)
+```
+
+Suppose you want to print all songs by Taylor Swift because of reasons:
+
+```
+"""
+Print the Billboard data set
+"""
+
+with open('billboard_chart_data.txt', 'r') as f:
+    for line in f:
+        line = line.strip()
+        fields = line.split(';')  # Split the line into parts using ; as the separator
+        
+        # The fields are indexed using [ ], just like string characters
+        artist = fields[0]
+        song = fields[1]
+        year = int(fields[2])
+        max_chart_position = int(fields[3])
+        weeks_on_chart = int(fields[4])
+        
+        # Print songs by Taylor Swift
+        # Test the artist
+        if artist == 'Taylor Swift':
+            print(song)
+```
+
+How about finding all #1 hits by the Beatles?
+
+```
+"""
+Print the Billboard data set
+"""
+
+with open('billboard_chart_data.txt', 'r') as f:
+    for line in f:
+        line = line.strip()
+        fields = line.split(';')  # Split the line into parts using ; as the separator
+        
+        # The fields are indexed using [ ], just like string characters
+        artist = fields[0]
+        song = fields[1]
+        year = int(fields[2])
+        max_chart_position = int(fields[3])
+        weeks_on_chart = int(fields[4])
+        
+        # Print songs by Taylor Swift
+        # Test the artist
+        if artist == 'The Beatles' and max_chart_position == 1:
+            print(song)
+```
+ 
+Use these examples to help you answer the questions below.
+ 
 ## Practice Questions
 <img src="https://upload.wikimedia.org/wikipedia/en/f/f5/Elvis_Presley_LPM-1254_Album_Cover.jpg" width="25%" />
 
-1. How many songs are in the entire data set?
+1. Which artist has more all-time chart appearances: Prince or Madonna?
 
-2. Which artist has more all-time chart appearances: Prince or Madonna?
+2. Find and print all of the number one hits by Elvis Presley.
 
-3. Find and print all of the number one hits by Elvis Presley.
+3. Which song spent the greatest total number of weeks on the charts?
 
-4. Which song spent the greatest total number of weeks on the charts?
-
-5. A major change in the charts took place in late 1991, when *Billboard* switched to using Nielsen’s SoundScan 
+4. A major change in the charts took place in late 1991, when *Billboard* switched to using Nielsen’s SoundScan 
 technology to automatically track radio play of songs. Prior to 1991, song popularity was determined from surveys filled 
 out by radio stations. It’s been said that the switch to SoundScan led to popular songs remaining on the charts longer
 than the old survey system. Determine if this is empirically true by calculating the average time spent on the charts
