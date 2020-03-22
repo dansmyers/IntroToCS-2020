@@ -156,8 +156,7 @@ with open('billboard_chart_data.txt', 'r') as f:
         max_chart_position = int(fields[3])
         weeks_on_chart = int(fields[4])
         
-        # Print songs by Taylor Swift
-        # Test the artist
+        # Find songs by the Beatles that made it to #1
         if artist == 'The Beatles' and max_chart_position == 1:
             print(song)
 ```
