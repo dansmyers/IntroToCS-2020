@@ -133,7 +133,6 @@ with open('billboard_chart_data.txt', 'r') as f:
         weeks_on_chart = int(fields[4])
         
         # Print songs by Taylor Swift
-        # Test the artist
         if artist == 'Taylor Swift':
             print(song)
 ```
