@@ -33,6 +33,21 @@ If you're significantly behind on the problem sets, you should prioritize gettin
 *P.S. Assignment 7 is my favorite*.
 
 
+## Uploading Files to Mimir
+
+A couple of the examples in the videos use a file named `words.txt`, which is posted to Canvas. If you want to follow along with those examples, you need to download the file and then upload it to your Mimir workspace.
+
+First, download the file from Canvas. Once you've done that, open your Mimir space and choose `File --> Upload` from the menu at the
+top. Navigate to the `words.txt` file that you downloaded (it's probably in your Downloads folder) and select it. Mimir will then upload it to your home directory.
+
+To move the file from your home directory to the `CMS_195/Strings_and_Files` directory, use the following command:
+
+```
+mv words.txt CMS_195/Strings_and_Files
+```
+
+If you get an error, make sure that you're in your top-level home directory when you run it. You can then `cd` to the `Strings_and_Files` directory like normal.
+
 ## To-Do List
 
 - Connect with your team members on Slack. I recommend establishing a goal of checking in each day so you stay engaged with each other.
