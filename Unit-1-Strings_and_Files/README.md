@@ -60,3 +60,5 @@ with the examples in the videos. Note that you don't need to upload or download 
 - Read [Chapter 8 of *Think Python*](http://greenteapress.com/thinkpython2/html/thinkpython2009.html) on strings, indexing, and looping.
 
 - Continue working on the autograded Mimir assignments with your teammates. This unit will give you the tools you need to complete up through Assignment 7.
+
+- Finally, work through the practice lab using the `billboard_chart_data.txt` file. This is for additional practice (you don't have to turn anything in) and the last question lets you do a little hypothesis-based investigation of the pop music charts.
