@@ -62,6 +62,7 @@ Each line records information on one song. The five fields are:
 - The year the song was released
 - The maximum position attained by the song during its life on the charts
 - The total number of weeks on the charts
+
 For example, the output above shows that Psy's "Gangnam Style", released in 2012, made it up to number 2 and spent a total of 31 weeks
  on the charts.
  
