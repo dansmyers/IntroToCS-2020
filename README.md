@@ -42,7 +42,7 @@ changes.
 ### Slack
 
 Slack is an instant messaging app that's now widely used as a replacement for e-mail in many companies. I've created a Slack
-channel for our class, `#cms-195-spring-2020`.
+channel for our class, `#cms195-s20`.
 
 Use the invite link posted to Canvas to join the channel. Once you've joined, post a quick intro message and a meme to let me know you've made it.
 
