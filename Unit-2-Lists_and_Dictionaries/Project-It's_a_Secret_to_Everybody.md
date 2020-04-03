@@ -24,7 +24,7 @@ For example,the coded message `GHHGDB GH EGJM` could be deciphered as `ATTACK AT
 - W for J
 - M for N.
 
-Although substitution ciphers are easy to implement they are insecure, because they’re vulnerable to **frequency analysis attack**.
+Although substitution ciphers are easy to implement, they are insecure, because they’re vulnerable to **frequency analysis attack**. This is the method Holmes uses to break the Dancing Men cipher in the story.
 
 The letters of English words are not randomly distributed: *e* is the most common (about 13% of occurrences), followed by *t* (9%) and then *a* (8%). Letters *q* and *z* each account for less than 1% of occurrences in common English text.
 
