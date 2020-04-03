@@ -35,3 +35,22 @@ In this project, your mission is to use frequency analysis to decipher a message
 ## Getting the Input File
 
 The enciphered message is in the file `cipher.txt` posted to Canvas. It contains the opening text of a famous work of literature. The punctuation, spaces, and capitalization of the text have been left intact and both capital and lowercase letters have been encrypted using the same substitutions.
+
+
+## Tips
+
+You probably want to write two programs, one to do the frequency analysis and one to do the decryption. The frequency analysis program needs to scan the text file and count the occurrences of each letter character. Use the letter-counting example from the video on Canvas as a starting point.
+
+The decryption program can read each character in the encrypted input, then look up a translation for that letter and output the translated character to produce the decrypted output. Use a dictionary to store mappings from one character to another.
+
+The frequency analysis results may not be perfect, so you may need to apply a little reasoning and experimentation to get the complete translation.
+
+You can use the string's `.lower()` method to convert a line to all lowercase letters:
+
+```
+# Example of converting text to lower case
+
+str = 'HELLO ,WORLD.'
+str.lower()
+print(str)  # prints 'hello, world.'
+```
