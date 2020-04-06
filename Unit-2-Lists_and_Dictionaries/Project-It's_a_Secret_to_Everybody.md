@@ -1,5 +1,9 @@
 # Project: It's a Secret to Everybody
 
+## Due Sunday, April 19
+
+## You can work with allies to complete this project
+
 <img src="https://objects-us-east-1.dream.io/secrettoeverybody/images/secret.png" width="50%" />
 
 ## Description
@@ -12,7 +16,7 @@ Sir Arthur Conan Doyle wrote "The Adventure of the Dancing Men" in 1905. In it, 
 
 Holmes realizes that the stick men are actually a code. Each different figure corresponds to one letter of the alphabet and the flags mark the boundaries between words. Holmes breaks the code and learns the truth...which you'll have to learn for yourself by reading the story
 
-The Dancing Men are an example of a **substitution cipher**: one of the simplest techniques for encoding secret messages. In this scheme, each letter in the **plaintext message** is mapped to a different letter of the alphabet to yield the **ciphertext message**. Knowing the substitutions allows the encryption to be reversed.
+The Dancing Men are an example of a **substitution cipher**: one of the simplest techniques for encoding secret messages. In this scheme, each letter in the **plaintext message** is mapped to a different letter of the alphabet (or another symbol, as in the Dancing Men) to yield the **ciphertext message**. Knowing the substitutions allows the encryption to be reversed.
 
 For example,the coded message `GHHGDB GH EGJM` could be deciphered as `ATTACK AT DAWN` by substituting
 
