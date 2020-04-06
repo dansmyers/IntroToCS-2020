@@ -4,8 +4,6 @@
 
 ## You can work with allies to complete this project
 
-<img src="https://objects-us-east-1.dream.io/secrettoeverybody/images/secret.png" width="50%" />
-
 ## Description
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Danc-01.jpg" width="33%" />
@@ -50,6 +48,8 @@ Here, the `~` (tilde) symbol is a shortcut that represents your home directory a
 
 
 ## Tips
+
+<img src="https://objects-us-east-1.dream.io/secrettoeverybody/images/secret.png" width="50%" />
 
 You probably want to write two programs, one to do the frequency analysis and one to do the decryption. The frequency analysis program needs to scan the text file and count the occurrences of each letter character. Use the letter-counting example from the video on Canvas as a starting point.
 
