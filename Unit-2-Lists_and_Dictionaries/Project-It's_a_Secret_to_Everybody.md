@@ -40,6 +40,14 @@ In this project, your mission is to use frequency analysis to decipher a message
 
 The enciphered message is in the file `cipher.txt` posted to Canvas. It contains the opening text of a famous work of literature. The punctuation, spaces, and capitalization of the text have been left intact and both capital and lowercase letters have been encrypted using the same substitutions.
 
+Download the file from Canvas, then import it into your Mimir workspace by going to `File --> Upload`. Once you've uploaded the file, it will appear in your Mimir top-level home directory. You can move it to your `CMS_195/Dictionaries` project directory using
+
+```
+mv ~/cipher.txt ~/CMS_195/Dictionaries
+```
+
+Here, the `~` (tilde) symbol is a shortcut that represents your home directory and `mv` is the file move command.
+
 
 ## Tips
 
