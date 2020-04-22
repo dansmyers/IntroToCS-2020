@@ -36,7 +36,8 @@ that's more calculation-oriented if that's what you want.
    
 ## Grading
 
-I'll run your program and look at the source code. I'll be checking:
+Submit your Python code, including a brief description of the program in its docstring, to
+Canvas. I'll run your program and look at the source code. I'll be checking:
 
 1. Does it work? Even if it's simple, I want to see something that
    could be considered a complete working program, not an incomplete
