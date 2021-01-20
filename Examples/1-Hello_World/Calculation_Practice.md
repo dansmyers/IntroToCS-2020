@@ -16,7 +16,7 @@ Tip: put a space between all of your operators and operands to make things easy 
 
 The Japanese yen currently trades for about $.0094.
 
-I'm a sucker for regional fast food items. It turns out that you can get **chocolate fries** at [McDonald's in Japan](https://www.eater.com/2016/1/19/10790586/mcdonalds-chocolate-fries-japan) (they are officially known
+I'm a sucker for regional fast food items. It turns out that you ~can~ could get **chocolate fries** at [McDonald's in Japan](https://www.eater.com/2016/1/19/10790586/mcdonalds-chocolate-fries-japan) (they are officially known
 as "McChocolate Potatoes"). Are they any good? Maybe not, but they cost only 330 yen as a side item.
 
 ![](https://cdn.vox-cdn.com/thumbor/WMJG04bu5nCmDiQ5mh0_chXelTY=/247x0:787x405/1820x1213/filters:focal(247x0:787x405):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/48592139/McDonald_s_Chocolate_Fries.0.0.jpg)
